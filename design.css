@@ -1,0 +1,72 @@
+/* /* import */
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+/* body */
+	body{
+		background-size: cover;
+		background-image: url('NewWebBg.jpg');
+		background-repeat: no-repeat;
+		background-color: hsl(100%, 50%, 120%);
+		padding: auto;
+	}
+
+
+
+
+
+
+	/* Heading */
+	h1 {
+		font-family: 'Dancing Script', cursive;
+		color: rgb(238, 235, 235);
+		font-size: 45px;
+	}
+
+	/* 3*3 Grid */
+	#b1, #b2, #b3, #b4, #b5,
+	#b6, #b7, #b8, #b9 {
+		width: 80px;
+		height: 52px;
+		margin: auto;
+		border: 1px solid gray;
+		border-radius: 6px;
+		font-size: 30px;
+		text-align: center;
+	}
+
+	/* Reset Button */
+	#but {
+		box-sizing: border-box;
+		width: 95px;
+		height: 40px;
+		border: 1px solid dodgerblue;
+		margin: auto;
+		border-radius: 4px;
+
+		background-color: rgb(250, 252, 250);
+		color: rgb(192, 77, 167);
+		font-size: 20px;
+		cursor: pointer;
+	}
+
+	/* Player turn space */
+	#print {
+		color: rgb(250, 252, 250);
+		font-size: 20px;
+		font-family: 'Dancing Script', cursive;
+	}
+
+	/* Main Container */
+	#main {
+		text-align: center;
+	}
+
+	/* Game Instruction Text */
+	#ins {
+		font-family: 'Dancing Script', cursive;
+		color: rgb(250, 249, 249);
+		font-size: 30px; 		
+	}
+	.Credit{
+		font-family: 'Gloria Hallelujah', cursive;
+		color: rgb(250, 249, 249);
+	}
